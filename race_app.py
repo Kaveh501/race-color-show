@@ -41,6 +41,6 @@ if st.button("🚀 Start Race"):
         time.sleep(0.1)
 
     if user_bet == winner:
-        st.success(f"😍 You won! The {winner} turtle is the champion!")
+        st.success(f"😍 You won! The {winner} Color is the champion!")
     else:
-        st.error(f"👻 You lost. The {winner} turtle won the race.")
+        st.error(f"👻 You lost. The {winner} Color won the race.")
